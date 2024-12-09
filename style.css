@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 496px;
+  border: 6px rgb(70, 67, 67) solid;
+  border-radius: 7px;
+  margin-top: 40px;
+  background-color: black;
+}
+
+#screen {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: 5px rgb(0, 0, 0) solid;
+  background-color: rgb(217, 212, 206);
+  width: 390px;
+  height: 110px;
+  font-size: 75px;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px;
+}
+
+button {
+  margin: 1px;
+  width: 97px;
+  height: 70px;
+  border-radius: 4px;
+  border: none;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#zero {
+  width: 195px;
+}
+
+.numbersBlock {
+  background-color: rgb(46, 111, 164);
+}
+
+.numbersBlock:active {
+  background-color: rgb(77, 152, 214);
+}
+
+.functionsUpperBlock {
+  background-color: rgb(2, 110, 106);
+}
+
+.functionsUpperBlock:active {
+  background-color: rgb(12, 189, 184);
+}
+
+.functionsRightBlock {
+  background-color: rgb(222, 146, 4);
+}
+
+.functionsRightBlock:active {
+  background-color: rgb(248, 184, 67);
+}
