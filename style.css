@@ -18,13 +18,17 @@ body {
 
 #screen {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
   border: 5px rgb(0, 0, 0) solid;
   background-color: rgb(217, 212, 206);
   width: 390px;
   height: 110px;
   font-size: 75px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .rows {
